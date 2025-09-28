@@ -1,0 +1,36 @@
+# === Rust / Cargo ===
+target/
+Cargo.lock
+**/*.rs.bk
+
+# === Build artifacts ===
+*.exe
+*.out
+*.o
+*.so
+*.dylib
+*.dll
+
+# === Logs / temp ===
+*.log
+*.tmp
+*.swp
+*.swo
+
+# === IDE / Editors ===
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (CLion, IntelliJ, RustRover)
+.idea/
+*.iml
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Environment / Config ===
+.env
+.env.*
+config/local.toml
